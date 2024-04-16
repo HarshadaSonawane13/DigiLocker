@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.one img {
+  width: 1380px; /* Adjust as needed */
+  height: 630px; /* Maintain aspect ratio */
+  margin-right: 0px; /* Space between image and text */
+  margin-left: 0px;
+}
