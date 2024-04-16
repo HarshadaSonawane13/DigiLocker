@@ -16,6 +16,7 @@ body {
 .container {
   display: flex;
   align-items: center;
+  position: relative; /* Added */
 }
 
 .one img {
@@ -23,4 +24,17 @@ body {
   height: 630px; /* Maintain aspect ratio */
   margin-right: 0px; /* Space between image and text */
   margin-left: 0px;
+}
+
+.two {
+  position: absolute;
+  top: 160px; /* Adjust as needed */
+  left: 300px; /* Adjust as needed */
+  width: 100px;
+  height: 75px;
+}
+
+.two p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
 }
